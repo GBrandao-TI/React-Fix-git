@@ -4,6 +4,8 @@ import './index.css';
 import { Link } from 'react-router-dom';
 import FormQuiz from './Semana6/FormQuiz';
 import FormTicket from './Semana6/FormTicket';
+import Accordion from './Semana6/Accordion';
+import Messenger from './Semana6/ChatContact';
 
 
 function Atividade06() {
@@ -20,6 +22,19 @@ function Atividade06() {
       <div className="FormTicket espaco">
         <header className="FormTicket-header">
           <FormTicket />
+        </header>
+      </div>
+
+      <div className="Accordion espaco">
+        <header className="Accordion-header">
+          <Accordion />
+        </header>
+      </div>
+
+
+      <div className="Messenger espaco">
+        <header className="Messenger-header">
+          <Messenger />
         </header>
       </div>
       
